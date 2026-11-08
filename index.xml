@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>YGGPHH&#039;s Blog</title>
+      <link>https://yggphh.github.io</link>
+      <description>Last 10 notes on YGGPHH&#039;s Blog</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>software-engineering</title>
+    <link>https://yggphh.github.io/tags/software-engineering</link>
+    <guid>https://yggphh.github.io/tags/software-engineering</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sun, 08 Nov 2026 14:17:02 GMT</pubDate>
+  </item><item>
+    <title>tools</title>
+    <link>https://yggphh.github.io/tags/tools</link>
+    <guid>https://yggphh.github.io/tags/tools</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sun, 08 Nov 2026 14:17:02 GMT</pubDate>
+  </item><item>
+    <title>deep-learning</title>
+    <link>https://yggphh.github.io/tags/deep-learning</link>
+    <guid>https://yggphh.github.io/tags/deep-learning</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sun, 08 Nov 2026 14:17:02 GMT</pubDate>
+  </item><item>
+    <title>paper-notes</title>
+    <link>https://yggphh.github.io/tags/paper-notes</link>
+    <guid>https://yggphh.github.io/tags/paper-notes</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sun, 08 Nov 2026 14:17:02 GMT</pubDate>
+  </item><item>
+    <title>标签索引</title>
+    <link>https://yggphh.github.io/tags/</link>
+    <guid>https://yggphh.github.io/tags/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sun, 08 Nov 2026 14:17:02 GMT</pubDate>
+  </item><item>
+    <title>Git 工作流笔记</title>
+    <link>https://yggphh.github.io/git-notes</link>
+    <guid>https://yggphh.github.io/git-notes</guid>
+    <description><![CDATA[ 这是一篇演示笔记，展示标签、代码高亮与 Obsidian 双链的渲染效果。正式写作后可删除。 常用命令 git switch -c feature/my-change # 开新分支 git add -p # 按块暂存 git commit --amend # 修正最近一次提交 小贴士 提交信息写清”为什么改”，而不是”改了什么”（diff 里能看到） rebase 个人分支保持线性历史，合并进主干用 merge commit 留痕 关联笔记 深度学习相关见 transformer-notes。. ]]></description>
+    <pubDate>Sun, 08 Nov 2026 12:52:41 GMT</pubDate>
+  </item><item>
+    <title>首页</title>
+    <link>https://yggphh.github.io/</link>
+    <guid>https://yggphh.github.io/</guid>
+    <description><![CDATA[ 这里是 YGGPHH 的个人博客，记录和分享我在 Deep Learning / Software Engineering 以及其他领域（未来持续拓展）的学习心得与笔记。 主要栏目 Deep Learning — 论文阅读、模型笔记、数学推导 Software Engineering — 开发实践、工具链、工程心得 关于本站 用 Obsidian 编写，Quartz 构建，GitHub Pages 发布 纯静态站点：无评论、无统计、无第三方脚本 . ]]></description>
+    <pubDate>Sun, 08 Nov 2026 12:52:41 GMT</pubDate>
+  </item><item>
+    <title>Transformer 笔记</title>
+    <link>https://yggphh.github.io/transformer-notes</link>
+    <guid>https://yggphh.github.io/transformer-notes</guid>
+    <description><![CDATA[ 这是一篇演示笔记，展示数学公式、代码高亮与 Obsidian 双链的渲染效果。正式写作后可删除。 注意力机制 缩放点积注意力： \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V 其中 d_k 是键向量的维度，除以 \sqrt{d_k} 用于防止点积过大导致 softmax 梯度消失。 代码示例 import torch import torch.nn as nn class MultiHeadAttention(nn.Module): def __init__(self, d_m... ]]></description>
+    <pubDate>Sun, 08 Nov 2026 12:52:41 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
